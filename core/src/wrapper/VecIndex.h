@@ -49,6 +49,7 @@ enum class IndexType {
     FAISS_IVFSQ8_HYBRID,  // only support build on gpu.
     NSG_MIX,
     FAISS_IVFPQ_MIX,
+    SPTAG_BKT_RNT_CPU,
 };
 
 class VecIndex;
